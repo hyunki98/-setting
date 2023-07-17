@@ -30,10 +30,12 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+
 fieldset,
 img {
   border: 0 none;
 }
+
 dl,
 ul,
 ol,
@@ -41,26 +43,31 @@ menu,
 li {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after {
   content: "";
   content: none;
 }
+
 q:before,
 q:after {
   content: "";
   content: none;
 }
+
 input,
 select,
 textarea {
   font-size: 100%;
   vertical-align: middle;
 }
+
 button {
   font-size: 100%;
   vertical-align: middle;
@@ -68,13 +75,16 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 body {
   -webkit-text-size-adjust: none;
 }
+
 /* 뷰표트 변환시 폰트크기 자동확대 방지 */
 input[type="text"],
 input[type="password"],
@@ -83,14 +93,17 @@ input[type="search"] {
   -webkit-appearance: none;
   border-radius: 0;
 }
+
 input:checked[type="checkbox"] {
   background-color: #666;
   -webkit-appearance: checkbox;
 }
+
 button {
   -webkit-appearance: button;
   border-radius: 0;
 }
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -98,6 +111,7 @@ input[type="file"] {
   -webkit-appearance: button;
   border-radius: 0;
 }
+
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
@@ -108,9 +122,10 @@ body {
   background: #fff;
   font-size: 14px;
   line-height: 1.5;
-  font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  font-family: "Poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
   color: #111;
 }
+
 /* desktop */
 @media screen and (min-width: 1280px) {
   body {
@@ -123,10 +138,12 @@ a {
   color: #333;
   text-decoration: none;
 }
+
 a:active,
 a:hover {
   text-decoration: none;
 }
+
 address,
 caption,
 cite,
@@ -137,18 +154,22 @@ var {
   font-style: normal;
   font-weight: normal;
 }
+
 hr {
   display: none;
 }
+
 input[type="password"] {
   font-family: "Malgun Gothic";
 }
+
 /* 웹폰트 사용시 점이 안보임 - 기본 폰트 사용  */
 /* skipnavigation */
 #u-skip {
   position: relative;
   z-index: 3000;
 }
+
 #u-skip a {
   position: absolute;
   top: -35px;
@@ -162,11 +183,13 @@ input[type="password"] {
   text-align: center;
   opacity: 0;
 }
+
 #u-skip a:focus {
   top: 0;
   opacity: 1;
   z-index: 1000;
 }
+
 /* 이미지 스프라이트 */
 .img-g {
   display: inline-block;
@@ -174,6 +197,7 @@ input[type="password"] {
   background: url(../../images/comm/img-comm.png) no-repeat;
   vertical-align: top;
 }
+
 /* 이미지 */
 /* global */
 .ir-pm {
@@ -183,6 +207,7 @@ input[type="password"] {
   line-height: 0;
   text-indent: -9999px;
 }
+
 /* 사용된 이미지내 의미있는 텍스트의 대체텍스트를 제공할때 */
 .ir-wa {
   display: block;
@@ -192,6 +217,7 @@ input[type="password"] {
   width: 100%;
   height: 100%;
 }
+
 /* 중요한 이미지 대체텍스트로 이미지off시에도 대체 텍스트를 보여주고자 할때 */
 .blind,
 caption,
@@ -203,23 +229,29 @@ legend {
   line-height: 0;
   text-indent: -9999px;
 }
+
 /* 대체텍스트가 아닌 접근성을 위한 숨김텍스트를 제공할때 */
 .f_l {
   float: left;
 }
+
 .f_r {
   float: right;
 }
+
 .show {
   display: block;
 }
+
 .hide {
   display: none;
 }
+
 .tbl {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* 테이블 초기화 */
 .clearfix {
   display: block;
@@ -228,6 +260,7 @@ legend {
   clear: both;
   zoom: 1;
 }
+
 .clearfix:after {
   display: block;
   visibility: hidden;
